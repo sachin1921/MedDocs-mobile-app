@@ -33,10 +33,12 @@ The intention was to cover all the requirements as possible, yet development tea
 ### MAIN SCREENS:
 First login screen shown in figure 2. All fields are mandatory when signing up for an account if its the first time user using the app. User is able to click sign in if an account exist. When user click sign in, the app required user to input both email and password to sign in [Figure 3]. Upon sign in into the application, user is able to either go ahead booking an appointment or perform some health checks [Figure 4]. The booking of the appointment could be chosen either from the map or from the list of available hospitals [Figure 5,6,7]. Once user click the client they want to visit, a list of doctors were, then, available to choose from [Figure 8]. As each doctor has its own available time, one could choose the appointment time slot[Figure 9]. A confirmation page will then show up indicating patient’s name, doctor visit, and time of the appointment [Figure 10].  If user choose to use the health tool, upon clicking health toolbar, the application will direct and show a list of available tools to use such as BMI Calculator, Calorie Calculator  [Figure 11,12,13]
 
-Figure 2: Login Screen<br>
+Figure 2: Register Screen<br>
+![Register](images/register.png)<br>
 
 
 Figure 3: Sign in Screen <br>
+![Sign in page](images/login.png)<br>
 
 
 

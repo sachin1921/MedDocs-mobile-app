@@ -1,1 +1,1 @@
-"# MedDocs-mobile-app" 
+# MedDocs mobile application

@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.meddocs"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:12:5-53:19
+26        android:allowBackup="true"
+26-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:18:9-40
+35        <activity android:name="com.example.meddocs.bmiWeb" />
+35-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:19:9-53
+35-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:19:19-41
+36        <activity android:name="com.example.meddocs.calorieWeb" />
+36-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:20:9-48
+36-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:20:19-45
+37        <activity android:name="com.example.meddocs.healthTools" />
+37-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:21:9-49
+37-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:21:19-46
+38        <!--
+39             The API key for Google Maps-based APIs is defined as a string resource.
+40             (See the file "res/values/google_maps_api.xml").
+41             Note that the API key is linked to the encryption key used to sign the APK.
+42             You need a different API key for each encryption key, including the release key that is used to
+43             sign the APK for publishing.
+44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+45        -->
+46        <meta-data
+46-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:30:9-32:55
+47            android:name="com.google.android.geo.API_KEY"
+47-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:31:13-58
+48            android:value="@string/google_maps_key" />
+48-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:32:13-52
+49
+50        <activity
+50-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:34:9-36:59
+51            android:name="com.example.meddocs.MapsActivity"
+51-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:35:13-41
+52            android:label="@string/title_activity_maps" />
+52-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:36:13-56
+53        <activity android:name="com.example.meddocs.showHospitals" />
+53-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:37:9-51
+53-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:37:19-48
+54        <activity android:name="com.example.meddocs.Cancellation" />
+54-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:38:9-50
+54-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:38:19-47
+55        <activity android:name="com.example.meddocs.Confirmation" />
+55-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:39:9-50
+55-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:39:19-47
+56        <activity android:name="com.example.meddocs.Appointments" />
+56-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:40:9-50
+56-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:40:19-47
+57        <activity android:name="com.example.meddocs.Signin" />
+57-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:41:9-44
+57-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:41:19-41
+58        <activity android:name="com.example.meddocs.selection" />
+58-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:42:9-47
+58-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:42:19-44
+59        <activity android:name="com.example.meddocs.Patients" />
+59-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:43:9-46
+59-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:43:19-43
+60        <activity android:name="com.example.meddocs.Doctors" />
+60-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:44:9-45
+60-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:44:19-42
+61        <activity android:name="com.example.meddocs.Hospitals" />
+61-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:45:9-47
+61-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:45:19-44
+62        <activity android:name="com.example.meddocs.MainActivity" >
+62-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:46:9-52:20
+62-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:46:19-47
+63            <intent-filter>
+63-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:47:13-51:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:48:17-69
+64-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:48:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:50:17-77
+66-->C:\Users\100620287\Desktop\MedDocs\MedDocs\app\src\main\AndroidManifest.xml:50:27-74
+67            </intent-filter>
+68        </activity>
+69        <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\4882c64b33418d4d6e2bb0cb7ae334e3\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\bd8a4935a17dde33dc1d62d4f9914d3b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\8bc4e4ea2e6f16e08c781cbdbefa1462\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\8bc4e4ea2e6f16e08c781cbdbefa1462\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\100620287\.gradle\caches\transforms-2\files-2.1\8bc4e4ea2e6f16e08c781cbdbefa1462\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+82    </application>
+83
+84</manifest>
